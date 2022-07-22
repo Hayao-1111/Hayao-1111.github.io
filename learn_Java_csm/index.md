@@ -131,7 +131,7 @@ public class PlotFrameApp {
 
 运行程序后，输出一个图窗，如下图所示：
 
-![plot sin(x)/x](./CSM_learning/plot_sinx_over_x.jpg)
+![plot sin(x)/x](https://hayao-1111.github.io/learn_Java_csm/CSM_learning/plot_sinx_over_x.jpg)
 
 ### 使用OSP建立用户控制界面
 
@@ -185,7 +185,7 @@ public class CalculationApp extends AbstractCalculation {
 
 编译并运行后，点击`Calculate`按钮，程序底部的聊天框输出计算结果，如图所示：
 
-![calculationApp controller](./CSM_learning/calculationApp.jpg)
+![calculationApp controller](https://hayao-1111.github.io/learn_Java_csm/CSM_learning/calculationApp.jpg)
 
 在本程序中，`CalculationApp`类继承了抽象类（abstract class）`AbstractCalculation`，并实现（implement）了其中的抽象方法`calculate()`与方法`reset()`。当用户按下`Calculate`按钮时，程序调用方法`calculate()`；当用户按下按钮`Reset`时，程序调用方法`reset()`。
 
@@ -350,7 +350,7 @@ public class FallingParticlePlotApp extends AbstractCalculation {
 
 编译并运行后，得到如图所示的输出：
 
-![](./CSM_learning/FallingParticlePlotApp.jpg)
+![](https://hayao-1111.github.io/learn_Java_csm/CSM_learning/FallingParticlePlotApp.jpg)
 
 
 
@@ -591,7 +591,7 @@ public class BouncingBallApp extends AbstractSimulation {
 
 输出结果如下图所示：
 
-![](./CSM_learning/BouncingBallApp.jpg)
+![](https://hayao-1111.github.io/learn_Java_csm/CSM_learning/BouncingBallApp.jpg)
 
 可以继续完善：我们可以在`reset()`方法中添加命令：
 
@@ -603,7 +603,7 @@ enableStepsPerDisplay(true);
 
 OSP中的类大多是从基本的Java类中继承而来的。例如，`Plotframe`类的继承关系可以上溯到`java.swing.Jframe`类，其继承关系图如下图所示：
 
-![](./CSM_learning/Jframe_extends.jpeg)
+![](https://hayao-1111.github.io/learn_Java_csm/CSM_learning/Jframe_extends.jpeg)
 
 ## 程序模拟的指导思路
 
